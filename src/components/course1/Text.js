@@ -6,7 +6,7 @@ const Text = ({questions}) => {
         questions.map((question) => {
             return(
                 <div>
-                    <p className='text'>{question}</p>
+                    <p className='question'>{question}</p>
                     <textarea className='input'></textarea>
                 </div>
             )
