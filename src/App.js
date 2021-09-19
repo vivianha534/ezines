@@ -1,6 +1,7 @@
 import React from 'react'
 import Course1Container from './container/course1/Course1Container'
 import Course2Container from './container/course2/Course2Container'
+import Course3Container from './container/course3/Course3Container'
 import './App.css'
 import TimeTravelMartLogo from './assets/timetravelmart.svg'
 import {Switch, Route} from "react-router-dom";
@@ -41,6 +42,12 @@ const App = () => {
             <img className='ttmLogo' src={TimeTravelMartLogo} />
           </div>
           <Course2Container />
+        </Route>
+        <Route exact path="/course3">
+          <div className="imgContainer">
+            <img className='ttmLogo' src={TimeTravelMartLogo} />
+          </div>
+          <Course3Container />
         </Route>
       </Switch>
     </div>
