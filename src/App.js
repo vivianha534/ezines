@@ -1,7 +1,9 @@
 import React from 'react'
 import Course1Container from './container/course1/Course1Container'
+import Course2Container from './container/course2/Course2Container'
 import './App.css'
 import TimeTravelMartLogo from './assets/timetravelmart.svg'
+import {Switch, Route} from "react-router-dom";
 
 const course1=[
   "A haiku follows the syllable formatting 5, 7, 5. Write a haiku about your first love.",
@@ -27,10 +29,20 @@ const course1=[
 const App = () => {
   return (
     <div className='App'>
-      <div className="imgContainer">
-        <img className='ttmLogo' src={TimeTravelMartLogo} />
-      </div>
-      <Course1Container questions={course1}/>
+      <Switch>
+        <Route exact path="/course1">
+          <div className="imgContainer">
+            <img className='ttmLogo' src={TimeTravelMartLogo} />
+          </div>
+          <Course1Container questions={course1}/>
+        </Route>
+        <Route exact path="/course2">
+          <div className="imgContainer">
+            <img className='ttmLogo' src={TimeTravelMartLogo} />
+          </div>
+          <Course2Container />
+        </Route>
+      </Switch>
     </div>
   )
 }
