@@ -13,7 +13,7 @@ const Course3Container = () => {
             <p className="text">Awaken! <br/> <br/> Fresh out of the womb <br/> yet full of potential <br/> I was crowned in crimson. <br/><br/> Throughout life, <br/> this skin  <br/> has been all shades  <br/> of brown <br/> <br/> However, <br/> my hair has always been  <br/> a sleek <br/> dark river. <br/> Weaved with resilience and ancestral knowledge. <br/> <br/> My mouth <br/> holds a tongue <br/> with a mind  <br/> of its own <br/> <br/> She is unapologetic and untamed. <br/> <br/> ~Regina </p>
             <p className="text"> Beautiful Frijolitos <br/> <br/> “Frijolitos” is how my eighth grade English teacher referred to us, <br/> At first, not knowing it was only hurting us. <br/> She would often say it as a joke <br/> But you can see the menace in her look. <br/> She knew what she was doing but didn’t try to stop <br/> Instead she told herself we were inferior just ‘cause she was on top. <br/> We’d end up selling oranges she’d say <br/> But hey! <br/> Just because we’re brown doesn’t mean we need to frown. <br/> What she didn’t know was we wear a crown everywhere we go. <br/> Embrace your roots <br/> Don’t let oppression get to you! <br/> We might be muy “chiquitos” now <br/> But we will be beautiful “frijolitos” forever <br/> <br/> ~ Alicia </p>
             <div className="courseButtonContainer">
-                <a href="/"><button >Course 3</button></a>
+                <a href="/course3"><button >Course 3</button></a>
             </div>
         </div>
     )

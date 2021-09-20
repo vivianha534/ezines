@@ -5,7 +5,7 @@ const Course2Container = () => {
     return (
         <div className="course">
             <h1 className='title'>Second Course | Made With Love </h1>
-            <h2 className="subTitle">Love Is</h2>
+            <h2 className="loveIs">Love Is</h2>
             <p className="text">Love is beautiful as a rose <br /> Love is heartbreaking like someone dropping a ice-cream cone on the floor <br /> Love is strong like a man that goes to the gym a lot to lift up weights <br /> Love is scary like fright night at six flags <br /> Love is hurtful like getting a shot at the doctor <br /> Love is a map that leads you to your destiny <br /> Love is a map that shows you the right one direction <br /> <br /> ~ Gabby <br /> </p>
             <p className="text"> Love is a warm cup of coffee in the morning. <br /> <br /> ~ Ivette <br /></p>
             <p className="text"> Love is when someone shares pizza with you. <br /> <br /> ~ Oscar <br /></p>
