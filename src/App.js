@@ -1,11 +1,50 @@
 import React from 'react'
+import Header from './components/header/Header.js'
 import Course1Container from './container/course1/Course1Container'
 import Course2Container from './container/course2/Course2Container'
 import Course3Container from './container/course3/Course3Container'
 import Course4Container from './container/course4/Course4Container'
+import AboutPageContainer from './container/about/AboutPageContainer'
 import './App.css'
-import TimeTravelMartLogo from './assets/timetravelmart.svg'
 import {Switch, Route} from "react-router-dom";
+
+//about page store
+const stores = [
+  {
+    name: "Echo Park Time Travel Mart",
+    address: "1714 Sunset Blvd ",
+    zip: "Los Angeles, Ca 90026 "
+  },
+  {
+    name: "Mar Vista Time Travel Mart",
+    address: "12514 Venice Blvd",
+    zip: "Los Angeles, Ca 90066 " 
+  }
+]
+
+// about page contributors
+const contributors = [
+  {
+      contribution: "Concept & Can Design",
+      name: "Stefan Bucher",
+      website: "www.344 lovesyou.com",
+  },
+  {
+      contribution: "Zine Cover Art",
+      name: "Rodolfo Montalvo",
+      website: "www.rodolfomontalvo.com",   
+  },
+  {
+      contribution: "E-Zine Web Design",
+      name: "Urna Bajracharya",
+      website: "www.urna.info",
+  },
+  {
+      contribution: "E-Zine Web Development",
+      name: "Vivian Ha",
+      website: "https://vivianha534.github.io/Portfolio/",   
+  },
+]
 
 const course1=[
   "A haiku follows the syllable formatting 5, 7, 5. Write a haiku about your first love.",
@@ -31,29 +70,21 @@ const course1=[
 const App = () => {
   return (
     <div className='App'>
+      <Header/>
       <Switch>
+        <Route exact path="/about">
+          <AboutPageContainer contributors={contributors} stores={stores}/>
+        </Route>
         <Route exact path="/course1">
-          <div className="imgContainer">
-            <img className='ttmLogo' src={TimeTravelMartLogo} />
-          </div>
           <Course1Container questions={course1}/>
         </Route>
         <Route exact path="/course2">
-          <div className="imgContainer">
-            <img className='ttmLogo' src={TimeTravelMartLogo} />
-          </div>
           <Course2Container />
         </Route>
         <Route exact path="/course3">
-          <div className="imgContainer">
-            <img className='ttmLogo' src={TimeTravelMartLogo} />
-          </div>
           <Course3Container />
         </Route>
         <Route exact path="/course4">
-          <div className="imgContainer">
-            <img className='ttmLogo' src={TimeTravelMartLogo} />
-          </div>
           <Course4Container />
         </Route>
       </Switch>
