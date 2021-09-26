@@ -1,10 +1,11 @@
 import React from 'react'
 import Header from './components/header/Header.js'
+import HomePage from './container/homePage/HomePage.js'
+import AboutPageContainer from './container/about/AboutPageContainer'
 import Course1Container from './container/course1/Course1Container'
 import Course2Container from './container/course2/Course2Container'
 import Course3Container from './container/course3/Course3Container'
 import Course4Container from './container/course4/Course4Container'
-import AboutPageContainer from './container/about/AboutPageContainer'
 import './App.css'
 import {Switch, Route} from "react-router-dom";
 
@@ -72,6 +73,9 @@ const App = () => {
     <div className='App'>
       <Header/>
       <Switch>
+        <Route exact path='/'>
+          <HomePage />
+        </Route>
         <Route exact path="/about">
           <AboutPageContainer contributors={contributors} stores={stores}/>
         </Route>
