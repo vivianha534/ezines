@@ -7,8 +7,12 @@ const Header = () => {
     return (
         <div className='headerContainer'>
             <div></div>
-            <img className='menu' src={menu} />
-            <img src= {TimeTravelMartLogo}/>
+            <a href="/#courses">
+                <img className='menu' src={menu} />
+            </a>
+            <a href="/">
+                <img src= {TimeTravelMartLogo}/>
+            </a>
         </div>
     )
 }

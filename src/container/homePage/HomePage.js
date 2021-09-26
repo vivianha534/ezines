@@ -10,7 +10,7 @@ const HomePage = () => {
                 <div className='quad3'><img/> </div>
                 <div className='quad4'><img/> </div>
             </div>
-            <div className='courseListContainer'>
+            <div id="courses" className='courseListContainer'>
                 <div className="courseText">
                     <a className="course1" href = "/course1">First Course</a>
                     <p className="course1">Variety Is The Spice of Life</p>

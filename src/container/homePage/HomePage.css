@@ -38,6 +38,7 @@
     flex-direction: column;
     background: linear-gradient(#632e38, #5b1c23);
     text-align: center;
+    padding-bottom: 5rem;
 }
 
 .courseText{
