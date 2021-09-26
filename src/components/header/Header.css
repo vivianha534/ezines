@@ -1,0 +1,12 @@
+.headerContainer{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+@media only screen and (min-width: 700px) {
+    .headerContainer{
+        margin-left: 0rem;
+        justify-content: center;
+    }
+}

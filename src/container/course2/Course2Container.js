@@ -1,9 +1,11 @@
 import React from 'react'
 import '../CourseContainer.css'
+import SecondCourseMeat from "../../assets/meatCoursePhotos/SecondCourseMeat.svg"
 
 const Course2Container = () => {
     return (
         <div className="course">
+            <img className="coursePhoto" src={SecondCourseMeat} />
             <h1 className='title'>Second Course | Made With Love </h1>
             <h2 className="loveIs">Love Is</h2>
             <p className="text">Love is beautiful as a rose <br /> Love is heartbreaking like someone dropping a ice-cream cone on the floor <br /> Love is strong like a man that goes to the gym a lot to lift up weights <br /> Love is scary like fright night at six flags <br /> Love is hurtful like getting a shot at the doctor <br /> Love is a map that leads you to your destiny <br /> Love is a map that shows you the right one direction <br /> <br /> ~ Gabby <br /> </p>
@@ -19,7 +21,7 @@ const Course2Container = () => {
             <p className="text">Why Should I Hide Inside My Shell? <br/> <br/> Why should I hide inside my shell? <br/> If I know I’m beautiful just being myself <br/> There’s no need to imitate those around me <br/> If I am relentless, no one can stop me <br/> Am I weird in our society? <br/> Just by giving more attention to people’s personalities <br/> Maybe it does make me different, but being different also makes me unique <br/> Knowing myself like this really makes me believe <br/> Choosing who to be, the life I should live <br/> Marriage to me is synonymous with team, and my team works together <br/> We are supposed to help each other and with each other, grow even better. <br/> <br /> ~ Catherine </p>
             <div className="courseButtonContainer">
                 <a href="/course1"><button >Course 1</button></a>
-                <a href="/course3"><button >Course 3</button></a>
+                <a href="/course3"><button >Next</button></a>
             </div>
         </div>
     )
