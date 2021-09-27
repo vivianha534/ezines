@@ -1,11 +1,9 @@
 import React from 'react'
 import '../CourseContainer.css'
-import FourthCourseMeat from '../../assets/meatCoursePhotos/FourthCourseMeat.svg'
 
 const Course3Container = () => {
     return (
         <div className="course">
-            <img src={FourthCourseMeat}/>
             <h1 className='title'>Dessert Course | Just Desserts </h1>
             <h2 className="poemTitle">The Very Hungry Kitchen</h2>
             <p className="text"> Pusheen the cat is hungry. She lives in a house with her owner, Alex. And Pusheen needs to find food because her owner is running short on money. So Pusheen sneaks outside to go to the neighbors to beg for food by being really cute. How does a cat be cute? She makes cute eyes. And purrs. It’s a trick Pusheen does. And of course it works! She gets cat food. She does it again at random houses. It would seem suspicious if she went back to the same people. And she comes home very happy.<br/><br/>~ Rigo</p>
@@ -19,7 +17,8 @@ const Course3Container = () => {
             <p className="poemTitle"> Beautiful Frijolitos </p> 
             <p className="text"> “Frijolitos” is how my eighth grade English teacher referred to us, <br/> At first, not knowing it was only hurting us. <br/> She would often say it as a joke <br/> But you can see the menace in her look. <br/> She knew what she was doing but didn’t try to stop <br/> Instead she told herself we were inferior just ‘cause she was on top. <br/> We’d end up selling oranges she’d say <br/> But hey! <br/> Just because we’re brown doesn’t mean we need to frown. <br/> What she didn’t know was we wear a crown everywhere we go. <br/> Embrace your roots <br/> Don’t let oppression get to you! <br/> We might be muy “chiquitos” now <br/> But we will be beautiful “frijolitos” forever <br/> <br/> ~ Alicia </p>
             <div className="courseButtonContainer">
-                <a href="/about"><button >About Us -></button></a>
+                <a href="/"><button> &lt;&ndash;</button></a>
+                <a href="/about"><button >About Us &ndash;&gt;</button></a>
             </div>
         </div>
     )

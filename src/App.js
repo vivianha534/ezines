@@ -28,17 +28,17 @@ const contributors = [
   {
       contribution: "Concept & Can Design",
       name: "Stefan Bucher",
-      website: "www.344 lovesyou.com",
+      website: "https://www.344lovesyou.com",
   },
   {
       contribution: "Zine Cover Art",
       name: "Rodolfo Montalvo",
-      website: "www.rodolfomontalvo.com",   
+      website: "https://www.rodolfomontalvo.com",   
   },
   {
       contribution: "E-Zine Web Design",
       name: "Urna Bajracharya",
-      website: "www.urna.info",
+      website: "https://www.urna.info",
   },
   {
       contribution: "E-Zine Web Development",

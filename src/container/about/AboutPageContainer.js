@@ -15,11 +15,11 @@ const AboutPageContainer = ({contributors, stores}) => {
                 <br/><br/>826 LA is part of the 826 National (the largest youth- writing organization of chapters around the US), co-founded by Dave Eggers and Nínive Calegari. 
             </p>
 
-            <a className="link" href="www.826LA.org">www.826LA.org</a>
+            <a className="link" href="https://www.826LA.org">www.826LA.org</a>
             <img className="ttmArrows" src={TTM} />
             <h2>About Time Travel Mart</h2>
             <p>We’re a time travel mart, we service all of your time travel needs. All proceeds from our stores go directly back into funding the 826LA writing programs for students. </p>
-            <a  className="link"  href="www.timetravelmart.com">www.timetravelmart.com</a>
+            <a  className="link"  href="https://timetravelmart.com/">www.timetravelmart.com</a>
 
             <h2 className='subheading'>Stores</h2>
             {stores.map((store) => {

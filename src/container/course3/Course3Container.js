@@ -1,11 +1,9 @@
 import React from 'react'
 import '../CourseContainer.css'
-import ThirdCourseMeat from '../../assets/meatCoursePhotos/ThirdCourseMeat.svg'
 
 const Course3Container = () => {
     return (
         <div className="course">
-            <img className="coursePhoto" src={ThirdCourseMeat} />
             <h1 className='title'>Third Course | Food For Thought </h1>
             <h2 className="poemTitle">Art</h2>
             <p className="text">I have a neighbor that has an art studio so I go over and take <br/> my time and think what am I going to paint.  I saw abstract <br/> work so I said, “I will do abstract,” so I did and I &lt;3 art. <br/> When I go in I smell paint in the air.  I get a canvas.  I touch it. <br/> It’s rough.  When I paint I feel fantastic. <br/> <br/> ~ Isabella </p>
@@ -20,7 +18,8 @@ const Course3Container = () => {
             <p className="poemTitle"> Breaking the Sentence </p> 
             <p className="text"> Why imprison yourself in the past when you have a future? <br/> Why dwell in the memories of long ago <br/> That should be learned from and buried in the distant graveyard <br/> What do you gain? <br/> But a sentence of eternal suffering <br/> Why let those painful memories shape who you are <br/> When you can move forward in life? <br/><br/>~ Jocelyn  </p>
             <div className="courseButtonContainer">
-                <a href="/course4"><button >Next -></button></a>
+                <a href="/"><button> &lt;&ndash;</button></a>
+                <a href="/course4"><button >Next &ndash;&gt;</button></a>
             </div>
         </div>
     )

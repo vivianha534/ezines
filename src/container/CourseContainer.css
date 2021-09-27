@@ -14,7 +14,6 @@
     font-size: 1.125rem;
     text-align: center;
     color: grey;
-    padding-bottom: 3.75rem;
 }
 
 .text{
@@ -24,6 +23,7 @@
 .poemTitle{
     width: 80vw;
     font-size: 1.5rem;
+    margin-bottom: 0;
 }
 
 button{
@@ -33,8 +33,15 @@ button{
 }
 
 .courseButtonContainer{
-    width: 80vw;
+    width: 100vw;
     display: flex;
-    justify-content: flex-end;
-    margin-top: 1rem;
+    justify-content: space-between;
+    margin-top: 12rem;
+}
+
+.screenshot{
+    font-size: .875rem;
+    color: #f55d1f;
+    font-style: italic;
+    letter-spacing: 1.5px;
 }

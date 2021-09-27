@@ -63,8 +63,9 @@
     flex-direction: column;
     background: linear-gradient(#632e38, #5b1c23);
     text-align: center;
-    padding-bottom: 5rem;
     z-index: -1;
+    height: 100vh;
+    justify-content: center;
 }
 
 .courseText{
@@ -87,18 +88,22 @@ a{
 
 .course1{
     color: #f77c39;
+    margin-top:0;
 }
 
 .course2{
     color: #8979a3;
+    margin-top:0;
 }
 
 .course3{
     color: #d94275;
+    margin-top:0;
 }
 
 .course4{
     color: #c35855;
+    margin-top:0;
 }
 
 .about{

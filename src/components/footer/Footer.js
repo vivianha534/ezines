@@ -6,8 +6,8 @@ import "./Footer.css"
 const Footer = () => {
     return (
         <div className="footerContainer">
-            <img className="logo826" src={logo} />
-            <img className="TTM" src={TTM} />
+            <a href="https://826la.org/"><img className="logo826" src={logo} /> </a>
+            <a href="https://timetravelmart.com/" ><img className="TTM" src={TTM} /> </a>
         </div>
     )
 }
