@@ -4,6 +4,7 @@ import TTM from '../../assets/TTM.svg'
 import Contributor from "../../components/contributor/Contributor.js"
 import Store from "../../components/store/Store.js"
 import './AboutPageContainer.css'
+import Footer from '../../components/footer/Footer.js'
 
 const AboutPageContainer = ({contributors, stores}) => {
     return (
@@ -29,6 +30,7 @@ const AboutPageContainer = ({contributors, stores}) => {
             {contributors.map((contributor) => {
                 return <Contributor contributor = {contributor} />
             })}
+            <Footer />
         </div>
     )
 }

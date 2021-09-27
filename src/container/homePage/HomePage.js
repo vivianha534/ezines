@@ -10,6 +10,12 @@ const HomePage = () => {
                 <div className='quad3'><img/> </div>
                 <div className='quad4'><img/> </div>
             </div>
+            <div className = "titleContainer">
+                <p className="text1">Explore the delicacy of...</p>
+                <p className="text2">Mammoth </p>
+                <p className='text2'>Chunks </p>
+                <p className='text1'>E-Zine</p>
+            </div>
             <div id="courses" className='courseListContainer'>
                 <div className="courseText">
                     <a className="course1" href = "/course1">First Course</a>

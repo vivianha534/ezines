@@ -33,12 +33,38 @@
     height: 46vh;
 }
 
+.titleContainer{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
+    font-weight: 900;
+  
+}
+.text1{
+    font-size: 1.5rem;
+    margin: 0 0;
+}
+.text2{
+    font-size: 3.5rem;
+    margin: 0 0;
+}
+
 .courseListContainer{
     display: flex;
     flex-direction: column;
     background: linear-gradient(#632e38, #5b1c23);
     text-align: center;
     padding-bottom: 5rem;
+    z-index: -1;
 }
 
 .courseText{
