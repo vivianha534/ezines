@@ -13,8 +13,7 @@ const Course3Container = () => {
             <p className="text"> Home is... <br/> <br/> Home is a place I can call home <br/> Home is a warm hug & the smell of cinnamon <br/> Home is a place where I can lose myself <br/> Home is my Mom's cooking <br/><br/>~ Jackson, Tara, David, Alaniz </p>
             <p className="text"> Breaking the Sentence <br/> <br/> Why imprison yourself in the past when you have a future? <br/> Why dwell in the memories of long ago <br/> That should be learned from and buried in the distant graveyard <br/> What do you gain? <br/> But a sentence of eternal suffering <br/> Why let those painful memories shape who you are <br/> When you can move forward in life? <br/><br/>~ Jocelyn  </p>
             <div className="courseButtonContainer">
-                <a href="/course2"><button >Course 2</button></a>
-                <a href="/course4"><button >Next</button></a>
+                <a href="/course2"><button >Next -></button></a>
             </div>
         </div>
     )

@@ -15,22 +15,22 @@
 
 .quad1{
     background: linear-gradient(#ca3419, #992718);
-    height: 49vh;
+    height: 46vh;
 }
 
 .quad2{
     background: linear-gradient(#fd4033, #e82d33);
-    height: 49vh;
+    height: 46vh;
 }
 
 .quad3{
     background: linear-gradient(#944437, #613a49);
-    height: 49vh;
+    height: 46vh;
 }
 
 .quad4{
     background: linear-gradient(#fa5718, #f53a18);
-    height: 49vh;
+    height: 46vh;
 }
 
 .courseListContainer{
@@ -45,6 +45,12 @@
     margin-left: 2rem;
     text-align: left;
     border-bottom: solid .25rem #a3352e ;
+    padding-top: 1rem;
+}
+
+.courseTextAbout{
+    margin-left: 2rem;
+    text-align: left;
     padding-top: 1rem;
 }
 

@@ -26,14 +26,14 @@
 }
 
 button{
-    padding: .5rem;
+    font-size: 2.625rem;
     background-color: white;
-    border: solid 1px black;
+    border: none;
 }
 
 .courseButtonContainer{
     width: 80vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin-top: 1rem;
 }

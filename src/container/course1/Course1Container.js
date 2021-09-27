@@ -10,8 +10,7 @@ const Course1Container = ({questions}) => {
             <h1 className='title'>First Course | Variety is the Spice of Life </h1>
             <Text questions={questions}/>
             <div className="courseButtonContainer">
-                <a href="/"><button >Home</button></a>
-                <a href="/course2"><button >Next</button></a>
+                <a href="/course2"><button >Next -></button></a>
             </div>
         </div>
     )
