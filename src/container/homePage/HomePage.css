@@ -13,24 +13,41 @@
     max-height: 100%;
 }
 
+.courseMeat{
+    max-height: 100%;
+    max-width: 100%;
+}
+
 .quad1{
     background: linear-gradient(#ca3419, #992718);
     height: 46vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quad2{
     background: linear-gradient(#fd4033, #e82d33);
     height: 46vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quad3{
     background: linear-gradient(#944437, #613a49);
     height: 46vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quad4{
     background: linear-gradient(#fa5718, #f53a18);
     height: 46vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .titleContainer{
