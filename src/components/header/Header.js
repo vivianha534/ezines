@@ -7,10 +7,10 @@ const Header = () => {
     return (
         <div className='headerContainer'>
             <a href="/#courses">
-                <img className='menu' src={menu} />
+                <img alt = "menu" className='menu' src={menu} />
             </a>
             <a href="/">
-                <img className= "ttmHeaderLogo" src= {TimeTravelMartLogo}/>
+                <img alt= "time travel mart logo" className= "ttmHeaderLogo" src= {TimeTravelMartLogo}/>
             </a>
         </div>
     )

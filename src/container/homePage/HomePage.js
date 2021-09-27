@@ -5,10 +5,10 @@ const HomePage = () => {
     return (
         <div >
             <div className='rectangleContainer'>
-                <div className='quad1'><img /> </div>
-                <div className='quad2'><img/> </div>
-                <div className='quad3'><img/> </div>
-                <div className='quad4'><img/> </div>
+                <div className='quad1'><img alt="course 1"/> </div>
+                <div className='quad2'><img alt="course 2"/> </div>
+                <div className='quad3'><img alt="course 3"/> </div>
+                <div className='quad4'><img alt="course 4"/> </div>
             </div>
             <div className = "titleContainer">
                 <p className="text1">Explore the delicacy of...</p>
