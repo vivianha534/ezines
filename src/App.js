@@ -75,7 +75,7 @@ const App = () => {
       <Switch>
         <Route exact path='/'>
           <div className="ttmLogoContainer">
-            <img src = {TTMLogo} />
+            <img alt = "time travel mart logo" src = {TTMLogo} />
           </div>
           <HomePage />
         </Route>
