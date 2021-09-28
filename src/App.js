@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './components/header/Header.js'
+import TTMLogo from './assets/timetravelmart.svg'
 import HomePage from './container/homePage/HomePage.js'
 import AboutPageContainer from './container/about/AboutPageContainer'
 import Course1Container from './container/course1/Course1Container'
@@ -71,24 +72,31 @@ const course1=[
 const App = () => {
   return (
     <div className='App'>
-      <Header/>
       <Switch>
         <Route exact path='/'>
+          <div className="ttmLogoContainer">
+            <img src = {TTMLogo} />
+          </div>
           <HomePage />
         </Route>
         <Route exact path="/about">
+          <Header/>
           <AboutPageContainer contributors={contributors} stores={stores}/>
         </Route>
         <Route exact path="/course1">
+          <Header/>
           <Course1Container questions={course1}/>
         </Route>
         <Route exact path="/course2">
+          <Header/>
           <Course2Container />
         </Route>
         <Route exact path="/course3">
+          <Header/>
           <Course3Container />
         </Route>
         <Route exact path="/course4">
+          <Header/>
           <Course4Container />
         </Route>
       </Switch>

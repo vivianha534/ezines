@@ -9,6 +9,13 @@
     justify-content: center;
 }
 
+.ttmLogoContainer{
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    display: flex;
+    justify-content: center;
+}
+
 .ttmLogo{
     margin-top: 1.5rem;
     margin-bottom: 30px;

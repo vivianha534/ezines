@@ -38,7 +38,7 @@ const HomePage = () => {
                     <p className="course4">Just Desserts</p>
                 </div>
                 <div className="courseTextAbout">
-                    <a className="about" href = "/about">About Course</a>
+                    <a className="about" href = "/about">About Us</a>
                 </div>
             </div>
         </div>
